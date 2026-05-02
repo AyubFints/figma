@@ -1,0 +1,261 @@
+.kurslar-sektsiya {
+    padding: 80px 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .konteyner {
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+  
+  .kurslar-sarlavha {
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1E212C;
+  }
+  
+  .filter-ustun {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .kategoriyalar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .kategoriya-tugma {
+    padding: 10px 20px;
+    border: 1px solid #D7DADD;
+    background: transparent;
+    color: #9A9CA5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .kategoriya-tugma.aktiv {
+    border-color: #FF3F3A;
+    color: #FF3F3A;
+  }
+  
+  .qidiruv-qutisi {
+    position: relative;
+    width: 300px;
+  }
+  
+  .qidiruv-qutisi input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .kurslar-panjarasi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .kurs-kartasi {
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  
+  .kurs-kartasi:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .sariq-fon {
+    background-color: #FFCF2D;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .kurs-rasm img {
+    height: 90%;
+  }
+  
+  .kurs-malumot {
+    padding: 24px;
+  }
+  
+  .kurs-tegi {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  
+  .yashil { background-color: #03CEA4; }
+  .pushti { background-color: #F52F6E; }
+  
+  .kurs-kartasi h3 {
+    font-size: 20px;
+    color: #1E212C;
+    margin-bottom: 16px;
+    min-height: 50px;
+  }
+  
+  .kurs-narxi {
+    color: #FF3F3A;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .kurs-narxi span {
+    color: #787A80;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .fikrlar-sektsiya {
+    padding: 80px 20px;
+    background-color: #F4F5F7;
+    font-family: sans-serif;
+  }
+  
+  .konteyner {
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+  
+  .kichik-sarlavha {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #1E212C;
+  }
+  
+  .katta-sarlavha {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 60px;
+    color: #1E212C;
+  }
+  
+  .fikr-slayder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 120px;
+  }
+  
+  .fikr-kartasi {
+    background: #fff;
+    padding: 64px 100px;
+    border-radius: 4px;
+    box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08);
+    position: relative;
+    max-width: 800px;
+  }
+  
+  .tirnoq {
+    color: #FF3F3A;
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  
+  .fikr-matni {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #424551;
+    margin-bottom: 24px;
+  }
+  
+  .shaxs-malumot {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .shaxs-rasmi {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .shaxs-malumot h4 {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  
+  .shaxs-malumot p {
+    color: #787A80;
+    font-size: 14px;
+  }
+  
+  .yonalish-chap, .yonalish-ong {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .yonalish-ong {
+    background: #FF3F3A;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .sertifikat-bolimi {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .sertifikat-matn {
+    flex: 1;
+  }
+  
+  .sertifikat-matn .kichik-sarlavha {
+    text-align: left;
+  }
+  
+  .sertifikat-sarlavha {
+    font-size: 46px;
+    font-weight: 900;
+    margin: 16px 0 32px;
+  }
+  
+  .sertifikat-izoh {
+    color: #787A80;
+    margin-bottom: 40px;
+  }
+  
+  .hamkorlar {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .sertifikat-rasmi-qutisi {
+    flex: 1.5;
+  }
+  
+  .asosiy-sertifikat {
+    width: 100%;
+    box-shadow: 0 40px 80px -20px rgba(30, 33, 44, 0.16);
+    border-radius: 4px;
+  }

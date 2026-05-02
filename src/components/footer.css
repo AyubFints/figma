@@ -1,0 +1,148 @@
+.pastki-qism {
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  .obuna-bolimi {
+    background-color: #FEDBD0;
+    padding: 80px 20px;
+    text-align: center;
+    color: #1E212C;
+  }
+  
+  .kichik-matn {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .obuna-sarlavha {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .obuna-formasi {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 16px 24px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .obuna-tugma {
+    background-color: #FF3F3A;
+    color: #fff;
+    border: none;
+    padding: 0 40px;
+    border-radius: 0 4px 4px 0;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .asosiy-footer {
+    background-color: #1E212C;
+    padding: 80px 20px;
+  }
+  
+  .footer-konteyner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-ustun {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 24px;
+  }
+  
+  .footer-tavsif {
+    font-size: 14px;
+    color: #9A9CA5;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  .footer-ustun h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+  
+  .footer-ustun ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-ustun ul li {
+    margin-bottom: 12px;
+    color: #9A9CA5;
+    cursor: pointer;
+  }
+  
+  .mini-obuna {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .mini-obuna input {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    flex: 1;
+  }
+  
+  .mini-obuna button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  .kichik-izoh {
+    font-size: 10px;
+    color: #9A9CA5;
+    margin-top: 12px;
+  }
+  
+  .footer-pastki-chiziq {
+    background-color: #1E212C;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    font-size: 12px;
+    color: #9A9CA5;
+  }
+  
+  .tepaga-tugma {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  

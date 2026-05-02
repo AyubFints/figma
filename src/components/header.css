@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    margin-top: 50px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.btn1{
+    width: 207px;
+    height: 52px;
+    border: none;
+    border-radius: 7px;
+    background-color:#FF3F3A;
+}
