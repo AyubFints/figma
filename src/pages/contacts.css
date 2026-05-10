@@ -1,0 +1,203 @@
+.aloqa-sektsiyasi {
+    padding: 80px 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .aloqa-konteyner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .aloqa-malumotlari {
+    flex: 1;
+  }
+  
+  .ust-yozuv {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+    margin-bottom: 8px;
+  }
+  
+  .aloqa-sarlavha {
+    font-size: 46px;
+    font-weight: 900;
+    color: #1E212C;
+    margin-bottom: 40px;
+  }
+  
+  .aloqa-bandlari {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  
+  .band {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .ikona {
+    color: #FF3F3A;
+    font-size: 20px;
+    margin-top: 2px;
+  }
+  
+  .band p {
+    font-weight: 700;
+    color: #1E212C;
+    margin: 0 0 4px 0;
+  }
+  
+  .band a, .band span {
+    color: #424551;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .ijtimoiy-tarmoqlar h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E212C;
+    margin-bottom: 24px;
+  }
+  
+  .ikonalar-toplami {
+    display: flex;
+    gap: 32px;
+    color: #424551;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .xarita-qismi {
+    flex: 1.5;
+    width: 100%;
+  }
+  
+  .haqiqiy-xarita {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08);
+  }
+  
+
+  .xat-sektsiyasi {
+    padding: 80px 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .xat-konteyner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .xat-rasm-qismi {
+    flex: 1;
+  }
+  
+  .xat-rasm-qismi img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .xat-forma-qismi {
+    flex: 1.5;
+  }
+  
+  .kichik-matn {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+    margin-bottom: 8px;
+  }
+  
+  .katta-sarlavha {
+    font-size: 46px;
+    font-weight: 900;
+    color: #1E212C;
+    margin-bottom: 40px;
+  }
+  
+  .xat-formasi {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .forma-qatori {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .forma-guruhi {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .forma-guruhi label {
+    font-size: 16px;
+    color: #424551;
+  }
+  
+  .forma-guruhi input, 
+  .forma-guruhi textarea {
+    padding: 13px 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: #9A9CA5;
+  }
+  
+  .forma-guruhi textarea {
+    resize: none;
+  }
+  
+  .forma-pastki-qismi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    color: #424551;
+    cursor: pointer;
+    max-width: 315px;
+  }
+  
+  .yuborish-tugmasi {
+    background-color: #FF3F3A;
+    color: #fff;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .yuborish-tugmasi:hover {
+    background-color: #ef302b;
+  }
+  
+
+  

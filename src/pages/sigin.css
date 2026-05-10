@@ -1,0 +1,175 @@
+/* Modalning orqa foni */
+.modal-ust.qatlami {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(30, 33, 44, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Modal oynasi */
+  .modal-oynasi {
+    background-color: #ffffff;
+    width: 95%;
+    max-width: 486px;
+    padding: 48px;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  
+  .yopish-tugmasi {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #787A80;
+    cursor: pointer;
+  }
+  
+  .modal-sarlavha {
+    font-size: 28px;
+    font-weight: 900;
+    color: #1E212C;
+    margin-bottom: 12px;
+  }
+  
+  .modal-izoh {
+    font-size: 14px;
+    color: #787A80;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+  
+  /* Form elementlari */
+  .kirish-formasi {
+    text-align: left;
+  }
+  
+  .input-guruhi {
+    margin-bottom: 20px;
+  }
+  
+  .input-guruhi label {
+    display: block;
+    font-size: 14px;
+    color: #424551;
+    margin-bottom: 8px;
+  }
+  
+  .input-guruhi input {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .input-guruhi input:focus {
+    border-color: #FF3F3A;
+  }
+  
+  .parol-maydoni {
+    position: relative;
+  }
+  
+  .koz-ikona {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #9A9CA5;
+  }
+  
+  /* Opsiyalar va Tugma */
+  .forma-opsiyalari {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .eslab-qolish {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #424551;
+    cursor: pointer;
+  }
+  
+  .parolni-unitdingizmi {
+    font-size: 14px;
+    color: #FF3F3A;
+    text-decoration: none;
+  }
+  
+  .tizimga-kirish {
+    width: 100%;
+    padding: 16px;
+    background-color: #FF3F3A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: 0.3s;
+  }
+  
+  .tizimga-kirish:hover {
+    background-color: #ef302b;
+  }
+  
+  .ruyxatdan-otish {
+    text-align: center;
+    font-size: 14px;
+    color: #424551;
+  }
+  
+  .ruyxatdan-otish a {
+    color: #FF3F3A;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  /* Ijtimoiy tarmoqlar */
+  .ijtimoiy-kirish {
+    margin-top: 48px;
+    border-top: 1px solid #E5E8ED;
+    padding-top: 24px;
+  }
+  
+  .ijtimoiy-kirish p {
+    font-size: 14px;
+    color: #787A80;
+    margin-bottom: 16px;
+  }
+  
+  .ijtimoiy-ikonalar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-size: 18px;
+    color: #787A80;
+    cursor: pointer;
+  }
+  
+  .ijtimoiy-ikonalar span:hover {
+    color: #FF3F3A;
+  }

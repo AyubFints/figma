@@ -1,6 +1,11 @@
 import React from 'react';
 import './kurslar.css';
 import image from "../assets/imagee.png"
+import eee from "../assets/eee.png"
+import vvv from "../assets/vvv.png"
+import ggg from "../assets/ggg.png"
+import Certifikat from './certifikat/Certifikat';
+import { Link } from 'react-router-dom';
 
 const Kurslar = () => {
   const rasm = "image";
@@ -17,7 +22,10 @@ const Kurslar = () => {
             <button className="kategoriya-tugma">Marketing</button>
             <button className="kategoriya-tugma">Management</button>
             <button className="kategoriya-tugma">HR & Recruiting</button>
+          
+            <Link className="link" to="/design">
             <button className="kategoriya-tugma">Design</button>
+            </Link>
             <button className="kategoriya-tugma">Development</button>
           </div>
           <div className="qidiruv-qutisi">
@@ -25,8 +33,8 @@ const Kurslar = () => {
           </div>
         </div>
 
-        <div className="kurslar-panjarasi">
-          <div className="kurs-kartasi">
+        <div className="kurslar-panjarasii">
+          <div className="kurs-kartasii">
             <div className="kurs-rasm sariq-fon">
               <img src={image} alt="kurs" />
             </div>
@@ -37,10 +45,9 @@ const Kurslar = () => {
             </div>
           </div>
 
-          {/* 2-Kurs */}
-          <div className="kurs-kartasi">
+          <div className="kurs-kartasii">
             <div className="kurs-rasm sariq-fon">
-              <img src={image} alt="kurs" />
+              <img src={eee} alt="kurs" />
             </div>
             <div className="kurs-malumot">
               <span className="kurs-tegi ko'k">Management</span>
@@ -49,10 +56,10 @@ const Kurslar = () => {
             </div>
           </div>
 
-          {/* 3-Kurs */}
-          <div className="kurs-kartasi">
+
+          <div className="kurs-kartasii">
             <div className="kurs-rasm sariq-fon">
-              <img src={image} alt="kurs" />
+              <img src={vvv} alt="kurs" />
             </div>
             <div className="kurs-malumot">
               <span className="kurs-tegi to'q-sariq">HR & Recruiting</span>
@@ -61,10 +68,10 @@ const Kurslar = () => {
             </div>
           </div>
 
-          {/* 4-Kurs */}
-          <div className="kurs-kartasi">
+
+          <div className="kurs-kartasii">
             <div className="kurs-rasm sariq-fon">
-              <img src={image} alt="kurs" />
+              <img src={ggg} alt="kurs" />
             </div>
             <div className="kurs-malumot">
               <span className="kurs-tegi yashil">Marketing</span>
@@ -74,7 +81,7 @@ const Kurslar = () => {
           </div>
 
           {/* 5-Kurs */}
-          <div className="kurs-kartasi">
+          <div className="kurs-kartasii">
             <div className="kurs-rasm sariq-fon">
               <img src={image} alt="kurs" />
             </div>
@@ -86,7 +93,7 @@ const Kurslar = () => {
           </div>
 
           {/* 6-Kurs */}
-          <div className="kurs-kartasi">
+          <div className="kurs-kartasii">
             <div className="kurs-rasm sariq-fon">
               <img src={image} alt="kurs" />
             </div>
@@ -115,7 +122,7 @@ const Kurslar = () => {
               pulvinar neque pharetra arcu diam maecenas diam integer in.
             </p>
             <div className="shaxs-malumot">
-              <img src={image} alt="Eleanor Pena" className="shaxs-rasmi" />
+              <img src={ggg} alt="Eleanor Pena" className="shaxs-rasmi" />
               <div>
                 <h4>Eleanor Pena</h4>
                 <p>Position, Course</p>
@@ -126,25 +133,10 @@ const Kurslar = () => {
           <button className="yonalish-ong">→</button>
         </div>
 
-        <div className="sertifikat-bolimi">
-          <div className="sertifikat-matn">
-            <p className="kichik-sarlavha">CREATEX CERTIFICATE</p>
-            <h2 className="sertifikat-sarlavha">Your expertise will be confirmed</h2>
-            <p className="sertifikat-izoh">
-              We are accredited by international professional organizations and institutes:
-            </p>
-            <div className="hamkorlar">
-              <img src={image} alt="partner" />
-              <img src={image} alt="partner" />
-              <img src={image} alt="partner" />
-            </div>
-          </div>
-          <div className="sertifikat-rasmi-qutisi">
-            <img src={image} alt="Certificate" className="asosiy-sertifikat" />
-          </div>
-        </div>
+
       </div>
     </section>
+    <Certifikat/>
 </div>
     
   );

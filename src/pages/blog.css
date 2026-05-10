@@ -1,0 +1,53 @@
+.inputt{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+    padding: 70px;
+}
+.divin4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.divin5{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.divvan{
+    line-height: 24px;
+}
+.divtu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.divtuu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 145px;
+    margin-top: 60px;
+}
+.iimm{
+    width: 690px;
+    height: 315px;
+    padding: 0px 0px 20px 0px
+}
+.mmii{
+    width: 490px;
+    height: 300px;
+}
+.newlet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 150px ;
+}
+.newlet input{
+    width: 422px;
+    height: 52px;
+}

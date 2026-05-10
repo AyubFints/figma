@@ -59,7 +59,7 @@
     outline: none;
   }
   
-  .kurslar-panjarasi {
+  .kurslar-panjarasii {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;

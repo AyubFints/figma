@@ -1,0 +1,163 @@
+.maqola-sahifasi {
+    padding: 60px 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+    color: #424551;
+  }
+  
+  .maqola-konteyner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .asosiy-mazmun {
+    flex: 2;
+  }
+  
+  .maqola-kategoriya {
+    color: #FF3F3A;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .maqola-sarlavhasi {
+    font-size: 46px;
+    font-weight: 900;
+    color: #1E212C;
+    margin: 15px 0 25px;
+  }
+  
+  .maqola-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #787A80;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  
+  .maqola-asosiy-rasm img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 40px;
+  }
+  
+  .qalin-matn {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+    margin-bottom: 24px;
+  }
+  
+  .maqola-matni p {
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  .maqola-iqtibos {
+    border-left: 2px solid #FF3F3A;
+    padding-left: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+    margin: 40px 0;
+  }
+  
+  .maqola-ruyxat {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .maqola-ruyxat li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+  }
+  
+  .maqola-ruyxat li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #FF3F3A;
+  }
+  
+  .yon-panel {
+    flex: 1;
+  }
+  
+  .qidiruv-qutisi input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    margin-bottom: 40px;
+  }
+  
+  .muallif-blok h4, .trend-blok h4, .teglar-blok h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1E212C;
+  }
+  
+  .muallif-info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .muallif-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+  }
+  
+  .muallif-info h5 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  
+  .trend-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .trend-item img {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+  }
+  
+  .trend-item p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .qizil-matn { color: #FF3F3A; }
+  
+  .teglar-royxati {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .teglar-royxati span {
+    padding: 6px 12px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .aktiv-teg {
+    background-color: #FF3F3A;
+    color: #fff;
+    border-color: #FF3F3A !important;
+  }
+  
+  @media (max-width: 992px) {
+    .maqola-konteyner { flex-direction: column; }
+  }

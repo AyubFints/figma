@@ -1,0 +1,83 @@
+.bolim {
+    padding: 60px;
+    background: #f5f5f5;
+  }
+  
+  .bolim h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .filtr {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .filtr select,
+  .filtr input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .royxat {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .qator {
+    width: 70%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  
+  .sana {
+    width: 120px;
+  }
+  
+  .sana h3 {
+    color: red;
+    font-size: 22px;
+  }
+  
+  .sana span {
+    font-size: 14px;
+  }
+  
+  .sana p {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .malumot {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .malumot h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .malumot p {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .qator button {
+    padding: 6px 12px;
+    border: 1px solid red;
+    background: transparent;
+    color: red;
+    cursor: pointer;
+  }
+.tugmaa{
+  width: 200px;
+  height: 45px;
+}
