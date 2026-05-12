@@ -17,7 +17,7 @@ function Header(){
                 </div>
                 <div style={{display:"flex", alignItems:"center", gap:20}}>
                     <button className="btn1">Get consultation</button>
-                    <Link style={{textDecoration:"none",color:"black"}} to="/sigin">Login</Link>
+                    <Link style={{textDecoration:"none",color:"black"}} to="/signin">Login</Link>
                     <p>/ Register</p>
                 </div>
             </header>

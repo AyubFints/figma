@@ -1,66 +1,65 @@
-import React, { useState } from 'react'; 
+import React from "react";
 import "./sigin.css";
+import { Link } from "react-router-dom";
 
 function Sigin() {
-  const [ochiq, setOchiq] = useState(true);
-
-
-  const yopish = () => {
-    setOchiq(false);
-  };
-
-  if (!ochiq) return null;
-
   return (
-    <div>
-      <div className="modal-ust qatlami" onClick={yopish}>
-        <div className="modal-oynasi" onClick={(e) => e.stopPropagation()}>
-          <button className="yopish-tugmasi" onClick={yopish}>&times;</button>
-          
-          <h2 className="modal-sarlavha">Sign in</h2>
-          <p className="modal-izoh">
-            Sign in to your account using email and password provided during registration.
-          </p>
+    <div className="modal-ust qatlami">
 
-          <form className="kirish-formasi">
-            <div className="input-guruhi">
-              <label>Email</label>
-              <input type="email" placeholder="Your working email" required />
-            </div>
+      <div className="modal-oynasi">
 
-            <div className="input-guruhi">
-              <label>Password</label>
-              <div className="parol-maydoni">
-                <input type="password" placeholder="************" required />
-                <span className="koz-ikona">👁</span>
-              </div>
-            </div>
+        <h2 className="modal-sarlavha">
+          Sign In
+        </h2>
 
-            <div className="forma-opsiyalari">
-              <label className="eslab-qolish">
-                <input type="checkbox" />
-                <span>Keep me signed in</span>
-              </label>
-              <a href="#" className="parolni-unitdingizmi">Forgot password?</a>
-            </div>
+        <p className="modal-izoh">
+          Sign in to your account using email and password.
+        </p>
 
-            <button type="submit" className="tizimga-kirish">Sign in</button>
-            
-            <p className="ruyxatdan-otish">
-              Don't have an account? <a href="#">Sign up</a>
-            </p>
-          </form>
+        <form className="kirish-formasi">
 
-          <div className="ijtimoiy-kirish">
-            <p>Or sign in with</p>
-            <div className="ijtimoiy-ikonalar">
-              <span>f</span>
-              <span>G</span>
-              <span>t</span>
-              <span>in</span>
+          <div className="input-guruhi">
+            <label>Email</label>
+
+            <input
+              type="email"
+              placeholder="Your working email"
+              required
+            />
+          </div>
+
+          <div className="input-guruhi">
+            <label>Password</label>
+
+            <div className="parol-maydoni">
+
+              <input
+                type="password"
+                placeholder="************"
+                required
+              />
+
+              <span className="koz-ikona">
+                👁
+              </span>
+
             </div>
           </div>
-        </div>
+
+          <button
+            type="submit"
+            className="tizimga-kirish"
+          >
+            Sign In
+          </button>
+
+          <p className="ruyxatdan-otish">
+            Don't have an account?
+            <Link to="/sigup"> Sign Up</Link>
+          </p>
+
+        </form>
+
       </div>
     </div>
   );

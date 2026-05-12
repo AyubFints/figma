@@ -1,9 +1,11 @@
 import "./kertifikat.css"
 import img from "../../assets/image (11).png"
+import images from "../../assets/logos.png"
 
 
 function Certifikat(){
     return(
+        <div style={{display:"flex", justifyContent:"space-between",padding:70,alignItems:"center"}}>
         <div style={{display:"flex",justifyContent:"center",gap:15}}>
             <div className="title">
                 <p className="pin">Createx Certificate</p>
@@ -11,10 +13,7 @@ function Certifikat(){
                 <p className="pin">We are accredited by international <br />professional organizations and institutes:</p>
 
 
-                <div style={{display:"flex", alignItems:"center", gap:20,}}>
-                <p className="piin">Del Mar <br /> Strategiy</p>
-                <p className="piin">SENTINAL <br />CONSULTING</p>
-                <p style={{color:"green",fontSize:25}}>NATIONANL</p>
+                <img src={images} alt="" />
                 </div>
 
             </div>
